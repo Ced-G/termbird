@@ -1,11 +1,14 @@
+# Binary
+game
+
 # Prerequisites
 *.d
 
 # Object files
-*.o
-*.ko
-*.obj
-*.elf
+src/*.o
+src/*.ko
+src/*.obj
+src/*.elf
 
 # Linker output
 *.ilk
