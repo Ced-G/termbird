@@ -5,7 +5,7 @@ LDLIBS=-lncurses
 SRC_FILES=bird.c game.c pipe.c logic.c
 SRC=$(addprefix src/, $(SRC_FILES))
 OBJ=$(SRC:.c=.o)
-BIN=game
+BIN=termbird
 
 .PHONY: all clean
 
