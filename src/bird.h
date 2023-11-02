@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 #define LIFT_POWER 2
-#define GRAVITY 0.10
+#define GRAVITY 0.15
 
 struct Bird {
     int x;

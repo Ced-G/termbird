@@ -11,7 +11,7 @@ struct game_settings {
     int pipe_interval;
     int speed;
     int score;
-} settings = { .pipe_interval = 40, .speed = 1, .score = 0 };
+} settings = { .pipe_interval = 50, .speed = 1, .score = 0 };
 
 void game_over_screen(int score, int max_x, int max_y)
 {
