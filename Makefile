@@ -12,7 +12,7 @@ BIN=termbird
 all: $(BIN)
 
 $(BIN): $(OBJ)
-	$(CC) -o $(LDFLAGS) $@ $^ $(LDLIBS)
+	$(CC) $(LDFLAGS) -o $@ $^ $(LDLIBS)
 
 static: LDFLAGS = -static
 static: LDLIBS += -ltinfo
